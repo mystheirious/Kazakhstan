@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Attractions</title>
+	<script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body>
+	<header class="bg-cyan-800 px-16 shadow">
+	    <div class="mx-auto flex items-center justify-between py-4">
+	        <a href="index.html" class="flex items-center text-2xl text-white font-serif font-bold">Kazakhstan</a>
+	        <input type="checkbox" id="menu-toggle" class="peer hidden">
+	        <label for="menu-toggle" class="sm:hidden cursor-pointer text-white text-3xl">
+	            ☰
+	        </label>
+	        <nav class="hidden peer-checked:block absolute top-16 left-0 w-full bg-cyan-800 sm:static sm:block sm:w-auto">
+	            <ul class="flex flex-col items-center gap-y-4 py-4 sm:flex-row sm:gap-x-8 sm:py-0">
+	                <li><a href="index.html" class="text-white hover:text-cyan-500">Details</a></li>
+	                <li><a href="attractions.html" class="text-white hover:text-cyan-500">Attractions</a></li>
+	                <li><a href="delicacies.html" class="text-white hover:text-cyan-500">Delicacies</a></li>
+	            </ul>
+	        </nav>
+	    </div>
+	</header>
+	<div class="bg-[url('images/bg1.png')] bg-cover bg-no-repeat bg-center py-16">
+	    <div class="max-w-6xl mx-auto text-center text-white">
+	        <p class="text-6xl font-medium font-serif">Top 5 Must-Visit Destinations</p>
+	        <p class="mt-4 text-2xl">in Kazakhstan</p>
+	    </div>
+	    <div class="flex flex-wrap justify-center items-center gap-6 mt-10">
+	        <div class="bg-white shadow-lg rounded-2xl p-6 border border-cyan-100 w-[480px] h-[700px] hover:shadow-2xl hover:scale-105 transition duration-300">
+	        	<img class="mb-4" src="images/t1.jpg">
+	            <p class="text-2xl text-cyan-500 mb-4">Bayterek Tower</p>
+				<p class="text-xl font-light">A defining landmark of Kazakhstan, the Bayterek Tower in Nur-Sultan is more than just an architectural marvel—it embodies the nation's aspirations and cultural heritage. Inspired by the legend of the mythical bird Samruk, this striking tower offers a <strong>breathtaking 360-degree panoramic view of the capital.</strong> Standing at its observation deck, visitors can experience the city's blend of futuristic design and deep-rooted traditions, making it an essential stop for anyone exploring Kazakhstan.</p>
+			</div>
+			<div class="bg-white shadow-lg rounded-2xl p-6 border border-cyan-100 w-[480px] h-[700px] hover:shadow-2xl hover:scale-105 transition duration-300">
+				<img class="mb-4" src="images/t2.jpg">
+				<p class="text-2xl text-cyan-500 mb-4">Charyn Canyon</p>
+				<p class="text-xl font-light">Nicknamed the <strong>"Grand Canyon of Kazakhstan"</strong> Charyn Canyon is a natural masterpiece sculpted by time itself. Its dramatic cliffs, surreal rock formations, and vibrant hues create an unforgettable visual spectacle. Whether you're an adventure seeker ready to hike its winding trails or a nature lover capturing its stunning beauty, this geological wonder offers a rare glimpse into Earth's ancient history. No trip to Kazakhstan is complete without witnessing this breathtaking canyon.</p>
+			</div>
+			<div class="bg-white shadow-lg rounded-2xl p-6 border border-cyan-100 w-[480px] h-[700px] hover:shadow-2xl hover:scale-105 transition duration-300">
+				<img class="mb-4" src="images/t3.jpg">
+				<p class="text-2xl text-cyan-500 mb-4">Burabay National Park</p>
+				<p class="text-xl font-light">Known as the <strong>"Switzerland of Kazakhstan"</strong> Burabay National Park is a hidden gem of pristine nature, where crystal-clear lakes meet dense pine forests and towering rock formations. Whether you're looking to escape the city for tranquility, enjoy outdoor activities like boating and hiking, or simply soak in the breathtaking scenery, Burabay is a must-visit. Its mystical rock formations, some resembling legendary creatures, add to the park's enchanting charm.</p>
+			</div>
+			<div class="bg-white shadow-lg rounded-2xl p-6 border border-cyan-100 w-[480px] h-[700px] hover:shadow-2xl hover:scale-105 transition duration-300">
+				<img class="mb-4" src="images/t4.jpg">
+				<p class="text-2xl text-cyan-500 mb-4">Ile-Alatau National Park</p>
+				<p class="text-xl font-light">A paradise for adventure lovers, Ile-Alatau National Park offers a spectacular escape into the wild. Located near Almaty, this park boasts <strong>snow-capped peaks, cascading waterfalls, lush valleys, and diverse wildlife.</strong> Whether you crave an adrenaline rush from mountain trekking or a peaceful retreat in nature, this park delivers an unforgettable experience. Its stunning landscapes change with the seasons, making every visit a unique and awe-inspiring journey.</p>
+			</div>
+
+			<div class="bg-white shadow-lg rounded-2xl p-6 border border-cyan-100 w-[480px] h-[700px] hover:shadow-2xl hover:scale-105 transition duration-300">
+				<img class="mb-4" src="images/t5.jpg">
+				<p class="text-2xl text-cyan-500 mb-4">Ascension Cathedral</p>
+				<p class="text-xl font-light">A marvel of engineering and history, the Ascension Cathedral in Almaty is <strong>one of the tallest wooden structures in the world—built entirely without nails.</strong> This architectural masterpiece has withstood powerful earthquakes, a testament to its remarkable craftsmanship. Stepping inside, visitors are greeted with stunning frescoes, golden domes, and a sense of timeless spirituality. Whether you admire history, architecture, or sacred spaces, this cathedral is a must-see.</p>
+			</div>
+		</div>
+	</div>
+	<div class="bg-yellow-50 py-16">
+	    <div class="max-w-6xl mx-auto">
+	    	<p class="text-4xl font-serif text-cyan-500 font-bold text-center mb-8">Activities Not to Miss Out</p>
+	    	<img src="https://lp-cms-production.imgix.net/2023-05/shutterstock1894864312.jpg?auto=format&w=1920&h=640&fit=crop&crop=faces" class="mt-8 justify-center">
+	    </div>
+	    <div class="flex flex-wrap justify-center items-center gap-6 mt-12">
+	        <div class="bg-white shadow-lg p-6 border border-cyan-100 w-full sm:w-[480px] h-[auto] hover:shadow-2xl hover:scale-105 transition duration-300">
+	            <p class="text-2xl text-center text-cyan-500 mb-4">Stay in a Traditional Yurt</p>
+	            <p class="text-xl text-justify font-light">Experience the nomadic lifestyle by staying in a yurt camp in the Kazakh steppe. Enjoy traditional hospitality, food, and horseback riding.</p>
+	        </div>
+	        <div class="bg-white shadow-lg p-6 border border-cyan-100 w-full sm:w-[480px] h-[auto] hover:shadow-2xl hover:scale-105 transition duration-300">
+	            <p class="text-2xl text-center text-cyan-500 mb-4">Swim in Lake Kaindy’s Sunken Forest</p>
+	            <p class="text-xl text-justify font-light">Visit this surreal lake, famous for its submerged trees. It's a great spot for kayaking and photography.</p>
+	        </div>
+	        <div class="bg-white shadow-lg p-6 border border-cyan-100 w-full sm:w-[480px] h-[auto] hover:shadow-2xl hover:scale-105 transition duration-300">
+	            <p class="text-2xl text-center text-cyan-500 mb-4">Discover the Underground Mosques</p>
+	            <p class="text-xl text-justify font-light">Explore the Beket-Ata and Shakpak-Ata mosques, carved into the cliffs. These ancient spiritual sites hold deep historical significance.</p>
+	        </div>
+	        <div class="bg-white shadow-lg p-6 border border-cyan-100 w-full sm:w-[480px] h-[auto] hover:shadow-2xl hover:scale-105 transition duration-300">
+	            <p class="text-2xl text-center text-cyan-500 mb-4">Relax at Altyn Arashan Hot Springs</p>
+	            <p class="text-xl text-justify font-light">Hike or ride a jeep to Altyn Arashan, a hidden alpine valley with natural hot springs and breathtaking mountain views.</p>
+	        </div>
+	        <div class="bg-white shadow-lg p-6 border border-cyan-100 w-full sm:w-[480px] h-[auto] hover:shadow-2xl hover:scale-105 transition duration-300">
+	            <p class="text-2xl text-center text-cyan-500 mb-4">Visit the Singing Dunes</p>
+	            <p class="text-xl text-justify font-light">Explore the massive Singing Dunes in Altyn-Emel National Park, which produce a mysterious humming sound when the wind moves the sand.</p>
+	        </div>
+	        <div class="bg-white shadow-lg p-6 border border-cyan-100 w-full sm:w-[480px] h-[auto] hover:shadow-2xl hover:scale-105 transition duration-300">
+	            <p class="text-2xl text-center text-cyan-500 mb-4">Go on a Safari in Ustyurt Plateau</p>
+	            <p class="text-xl text-justify font-light">Explore the otherworldly landscapes of Ustyurt Plateau, home to canyons, salt flats, and rare wildlife, including Asiatic wild and golden eagles.</p>
+	        </div>
+	    </div>
+	</div>
+	<footer class="bg-cyan-800 text-white text-center py-6">
+    	<p class="text-lg font-semibold font-serif">Republic of Kazakhstan</p>
+    	<p class="text-sm mt-2">Designed by Marithei</p>
+	</footer>
+</body>
+</html>

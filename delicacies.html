@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Delicacies</title>
+	<script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body>
+	<header class="bg-cyan-800 px-16 shadow">
+	    <div class="mx-auto flex items-center justify-between py-4">
+	        <a href="index.html" class="flex items-center text-2xl text-white font-serif font-bold">Kazakhstan</a>
+	        <input type="checkbox" id="menu-toggle" class="peer hidden">
+	        <label for="menu-toggle" class="sm:hidden cursor-pointer text-white text-3xl">
+	            ☰
+	        </label>
+	        <nav class="hidden peer-checked:block absolute top-16 left-0 w-full bg-cyan-800 sm:static sm:block sm:w-auto">
+	            <ul class="flex flex-col items-center gap-y-4 py-4 sm:flex-row sm:gap-x-8 sm:py-0">
+	                <li><a href="index.html" class="text-white hover:text-cyan-500">Details</a></li>
+	                <li><a href="attractions.html" class="text-white hover:text-cyan-500">Attractions</a></li>
+	                <li><a href="delicacies.html" class="text-white hover:text-cyan-500">Delicacies</a></li>
+	            </ul>
+	        </nav>
+	    </div>
+	</header>
+	<div class="bg-[url('images/bg3.png')] bg-cover bg-no-repeat bg-center py-16">
+	    <div class="max-w-6xl mx-auto text-center text-white">
+	        <p class="text-6xl font-medium font-serif">Most Renowned Kazakh Dishes</p>
+	        <p class="mt-4 text-2xl">Rich Culinary Heritage</p>
+	    </div>
+	    <div class="flex flex-wrap justify-center items-center gap-6 mt-10">
+	        <div class="bg-white shadow-lg border border-cyan-100 w-[350px] h-[460px] hover:shadow-2xl hover:scale-105 transition duration-300">
+	            <img class="w-full h-64 object-cover" src="https://blog.remitly.com/wp-content/uploads/2023/09/kyrgyzstan-beshbarmak-1024x683.jpg">
+	            <div class="p-6">
+	                <p class="text-2xl text-cyan-500 mb-4">Beshbarmak</p>
+	                <p class="text-xl font-light">Kazakhstan’s national dish, consisting of boiled meat over flat noodles in an onion broth. Traditionally eaten by hand.</p>
+	            </div>
+	        </div>
+	        <div class="bg-white shadow-lg border border-cyan-100 w-[350px] h-[460px] hover:shadow-2xl hover:scale-105 transition duration-300">
+	            <img class="w-full h-64 object-cover" src="https://tse4.mm.bing.net/th?id=OIP.PpnooBrxSayD6jKKljgPngHaDO&pid=Api&P=0&h=220">
+	            <div class="p-6">
+	                <p class="text-2xl text-cyan-500 mb-4">Kazy</p>
+	                <p class="text-xl font-light">A traditional horse meat sausage, often served during celebrations, with a rich, smoky flavor.</p>
+	            </div>
+	        </div>
+	        <div class="bg-white shadow-lg border border-cyan-100 w-[350px] h-[460px] hover:shadow-2xl hover:scale-105 transition duration-300">
+	            <img class="w-full h-64 object-cover" src="https://travelfoodatlas.com/wp-content/uploads/2022/01/Kuurdak.jpg">
+	            <div class="p-6">
+	                <p class="text-2xl text-cyan-500 mb-4">Kuurdak</p>
+	                <p class="text-xl font-light">A hearty dish made from lamb or beef offal, sautéed with onions and spices, typically eaten fresh.</p>
+	            </div>
+	        </div>
+	        <div class="bg-white shadow-lg border border-cyan-100 w-[350px] h-[460px] hover:shadow-2xl hover:scale-105 transition duration-300">
+	            <img class="w-full h-64 object-cover" src="https://st2.depositphotos.com/5510056/10429/i/450/depositphotos_104292196-stock-photo-traditional-kazakh-asian-baursak-dish.jpg">
+	            <div class="p-6">
+	                <p class="text-2xl text-cyan-500 mb-4">Baursak</p>
+	                <p class="text-xl font-light">Deep-fried dough balls, similar to donuts, often served during festive occasions.</p>
+	            </div>
+	        </div>
+	        <div class="bg-white shadow-lg border border-cyan-100 w-[350px] h-[460px] hover:shadow-2xl hover:scale-105 transition duration-300">
+	            <img class="w-full h-64 object-cover" src="https://www.amchur.co.uk/wp-content/uploads/2022/09/How-to-make-Chicken-Shashlik-at-home.jpg">
+	            <div class="p-6">
+	                <p class="text-2xl text-cyan-500 mb-4">Shashlik</p>
+	                <p class="text-xl font-light">Marinated skewered meat, grilled over open flames, popular across Central Asia.</p>
+	            </div>
+	        </div>
+	        <div class="bg-white shadow-lg border border-cyan-100 w-[350px] h-[460px] hover:shadow-2xl hover:scale-105 transition duration-300">
+	            <img class="w-full h-64 object-cover" src="https://travelfoodatlas.com/wp-content/uploads/2022/01/Lagman-735x505.jpg">
+	            <div class="p-6">
+	                <p class="text-2xl text-cyan-500 mb-4">Lagman</p>
+	                <p class="text-xl font-light">A noodle dish with stir-fried meat and vegetables in a flavorful sauce, influenced by Uyghur cuisine.</p>
+	            </div>
+	        </div>
+	        <div class="bg-white shadow-lg border border-cyan-100 w-[350px] h-[460px] hover:shadow-2xl hover:scale-105 transition duration-300">
+	            <img class="w-full h-64 object-cover" src="https://travelfoodatlas.com/wp-content/uploads/2022/01/Manti-735x597.jpg">
+	            <div class="p-6">
+	                <p class="text-2xl text-cyan-500 mb-4">Manti</p>
+	                <p class="text-xl font-light">Steamed dumplings filled with minced lamb or beef, often served with sour cream.</p>
+	            </div>
+	        </div>
+	        <div class="bg-white shadow-lg border border-cyan-100 w-[350px] h-[460px] hover:shadow-2xl hover:scale-105 transition duration-300">
+	            <img class="w-full h-64 object-cover" src="https://i.pinimg.com/736x/2d/d3/d2/2dd3d216dae36109f025b5698f26bd87.jpg">
+	            <div class="p-6">
+	                <p class="text-2xl text-cyan-500 mb-4">Qurt</p>
+	                <p class="text-xl font-light">Dried salted cheese balls, a popular portable snack among Kazakh nomads.</p>
+	            </div>
+	        </div>
+	    </div>
+	</div>
+	<div class="bg-yellow-50 py-16">
+	    <div class="max-w-6xl mx-auto">
+	        <p class="text-4xl font-serif text-cyan-500 font-bold text-center mb-8">Cafés & Restaurants to Savor</p>
+	    </div>
+	    <div class="flex flex-wrap justify-center items-center gap-6 mt-10">
+	        <div class="bg-white shadow-lg p-6 border border-cyan-100 w-[480px] h-[385px] hover:shadow-2xl hover:scale-105 transition duration-300">
+	            <img class="h-60 w-full object-cover mb-4" src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/15/39/fa/b4/balkon.jpg?w=1200&h=-1&s=1">
+	            <p class="text-2xl text-center text-cyan-500 mb-4">Gastro Grill Balkon</p>
+	            <p class="text-xl text-center font-light"><strong>Location:</strong> Karaganda, Kazakhstan</p>
+	        </div>
+	        <div class="bg-white shadow-lg p-6 border border-cyan-100 w-[480px] h-[385px] hover:shadow-2xl hover:scale-105 transition duration-300">
+	            <img class="h-60 w-full object-cover mb-4" src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/08/9c/df/1c/sancak.jpg?w=1000&h=-1&s=1">
+	            <p class="text-2xl text-center text-cyan-500 mb-4">Sancak Restaurant</p>
+	            <p class="text-xl text-center font-light"><strong>Location:</strong> Atyrau, Kazakhstan</p>
+	        </div>
+	        <div class="bg-white shadow-lg p-6 border border-cyan-100 w-[480px] h-[385px] hover:shadow-2xl hover:scale-105 transition duration-300">
+	            <img class="h-60 w-full object-cover mb-4" src="https://wheretoeat.kz/upload/resize_cache/iblock/854/1342_558_1/pxqxu1i3ordu7b5fb4sl79ucl6eywu02.jpg">
+	            <p class="text-2xl text-center text-cyan-500 mb-4">Beefeater Dostyk</p>
+	            <p class="text-xl text-center font-light"><strong>Location:</strong> Almaty, Kazakhstan</p>
+	        </div>
+	        <div class="bg-white shadow-lg p-6 border border-cyan-100 w-[480px] h-[385px] hover:shadow-2xl hover:scale-105 transition duration-300">
+	            <img class="h-60 w-full object-cover mb-4" src="https://media-cdn.tripadvisor.com/media/photo-s/12/cf/31/8d/caption.jpg">
+	            <p class="text-2xl text-center text-cyan-500 mb-4">Nedelka</p>
+	            <p class="text-xl text-center font-light"><strong>Location:</strong> Almaty, Kazakhstan</p>
+	        </div>
+	        <div class="bg-white shadow-lg p-6 border border-cyan-100 w-[480px] h-[385px] hover:shadow-2xl hover:scale-105 transition duration-300">
+	            <img class="h-60 w-full object-cover mb-4" src="https://media-cdn.tripadvisor.com/media/photo-s/23/5f/39/1b/when-art-is-accumulated.jpg">
+	            <p class="text-2xl text-center text-cyan-500 mb-4">Salter's</p>
+	            <p class="text-xl text-center font-light"><strong>Location:</strong> Astana, Kazakhstan</p>
+	        </div>
+	        <div class="bg-white shadow-lg p-6 border border-cyan-100 w-[480px] h-[385px] hover:shadow-2xl hover:scale-105 transition duration-300">
+	            <img class="h-60 w-full object-cover mb-4" src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/2c/f5/b9/20/caption.jpg?w=1000&h=-1&s=1">
+	            <p class="text-2xl text-center text-cyan-500 mb-4">Marrone Rosso</p>
+	            <p class="text-xl text-center font-light"><strong>Location:</strong> Almaty, Kazakhstan</p>
+	        </div>
+	    </div>
+	</div>
+	<footer class="bg-cyan-800 text-white text-center py-6">
+    	<p class="text-lg font-semibold font-serif">Republic of Kazakhstan</p>
+    	<p class="text-sm mt-2">Designed by Marithei</p>
+	</footer>
+</body>
+</html>
